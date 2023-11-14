@@ -20,9 +20,9 @@ def handle_user_message(message_data):
 
 
 def handle_bot_message(message_data):
-    logging.debug(f"Bot message from: {message_data.get('user')} in channel: {message_data.get('channel')}.")
+    logging.debug(f"Bot message from {message_data.get('user')} in channel {message_data.get('channel')}.")
     if message_data.get('user') == 'USLACKBOT':
-        logging.info(f"Deleting slackbot message: {message_data.get('text')}.")
+        logging.info(f"Deleting slackbot message \"{message_data.get('text')}\" in channel {message_data.get('channel')}.")
         delete_message(message_data.get('channel'), message_data.get('ts'))
 
 
