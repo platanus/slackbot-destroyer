@@ -8,10 +8,6 @@ We use it to delete messages saying that one organization joined or left a chann
 
 This bot must be installed by a user who has permission to delete Slackbot messages in Slack, normally an admin or owner. Slackbot's messages will be deleted using the permissions of the user that installs Slackbot Destroyer.
 
-<img alt="Example of Slackbot Destroyer in Action"
-       src="assets/slackbot-destroyer-example.gif"
-       width=800px />
-
 ## Installation Steps 💽
 
 1. Go to your [organization's Slack integration page](https://api.slack.com/apps?new_classic_app=1) and create a **new application**. An organization admin will need to do this as this bot requires permissions to delete messages using the credentials of an admin user.\
