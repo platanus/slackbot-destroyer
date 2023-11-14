@@ -64,8 +64,8 @@ There is a [Procfile](Procfile) included in this repo with the command to run th
 To mod the bot locally in macOS:
 
 1. Use homebrew to install pyenv (`brew update && brew install pyenv`)
-1. Use pyenv to install Python 3.12.0 (`pyenv install 3.12.0`)
-1. Configure either local or global python to be 3.12.0 (`pyenv local 3.12.0`)
+1. Use pyenv to install Python 3.11.6 (`pyenv install 3.11.6`)
+1. Configure either local or global python to be 3.11.6 (`pyenv local 3.11.6`)
 1. Using the pip you just installed, install pipenv (`pip install pipenv`)
-1. Run pipenv install
+1. Install dependencies with pipenv (`pipenv install`)
 1. Run the app with `pipenv run python app.py`
